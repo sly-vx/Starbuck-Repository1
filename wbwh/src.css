@@ -1,0 +1,259 @@
+
+.container {
+    background-color: rgb(255, 255, 255);
+     width: 100%;
+     height: 130px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4); /* sombra embaixo */
+}
+body {
+margin: 0; padding: 0;
+background-color: rgb(255, 255, 255);
+}
+.menu
+{
+display: flex;
+justify-content: center;
+padding: 5px 10px;
+}
+nav ul, nav li
+{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+nav ul
+{
+    display: flex;
+    
+}
+nav a
+{
+    display: block;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    line-height: 0;
+    margin: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: bold;
+    font-size: 25px;
+    
+}
+nav .active a,
+nav a:hover
+{
+  color: rgb(8, 121, 66);
+}
+.logo {
+    width: 50px;
+    align-content: flex-start;
+    padding: 15px;
+    
+}
+.card {
+    display: flex;
+    background-color: #a6cfbf; /* fundo do card */
+    overflow: hidden;
+    margin-bottom: 20px; /* e pra dar espaço dos de baixo*/
+    justify-content: center;
+    height: 400px;
+      margin: 40px auto;  /* 40px em cima/baixo, centraliza no meio, n esquece de novo pfvr*/
+    width: 100%;
+    max-width: 1350px;
+  }
+
+  .card img {
+    width: 50%;
+    object-fit: cover;
+  }
+
+  .card-content {
+    padding: 20px;
+    width: 50%;
+  }
+
+  .card-content h2 {
+    margin-top: 100px ;
+    font-size: 1.7em;
+    text-align: center;
+  }
+
+  .card-content p {
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  .card-content button {
+    display: block;      
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #a6cfbf;
+    border: 1px solid black; 
+    border-radius: 35px;
+    color: rgb(0, 0, 0);
+    cursor: pointe;
+  }
+
+  .card-content button:hover {
+    background-color: #9ecfbcbb;
+     box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+  }
+     /* CARD2 INICIO */
+  .card2 {
+    display: flex;
+    flex-direction: row-reverse; /* muda/inverte a ordem (imagem depois texto) */
+    background-color: #a6cfbf; /* fundo do card */
+    overflow: hidden;
+    margin-bottom: 20px; /* e pra dar espaço dos de baixo*/
+    height: 400px;
+      margin: 40px auto;  /* 40px em cima/baixo, centraliza no meio, n esquece de novo pfvr*/
+    width: 100%;
+    max-width: 1350px;
+  }
+  .card2 img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .card2-content {
+    padding: 20px;
+    width: 50%;
+  }
+  .card2-content h2 {
+    margin-top: 100px ;
+    font-size: 1.7em;
+    text-align: center;
+  }
+
+  .card2-content p {
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .card2-content button {
+    display: block;      
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #a6cfbf;
+    border: 1px solid black; 
+    border-radius: 35px;
+    color: rgb(0, 0, 0);
+    cursor: pointe;
+  }
+  .card2-content button:hover {
+    background-color: #9ecfbcbb;
+     box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+  }
+  /* CARD3 INICIO */
+  .card3 {
+    display: flex;
+    background-color: #a6cfbf; /* fundo do card */
+    overflow: hidden;
+    margin-bottom: 20px; /* e pra dar espaço dos de baixo*/
+    height: 400px;
+    margin: 40px auto;  /* 40px em cima/baixo, centraliza no meio, n esquece de novo pfvr*/
+    width: 100%;
+    max-width: 1350px;
+  }
+  .card3 img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .card3-content {
+    padding: 20px;
+    width: 50%;
+  }
+  .card3-content h2 {
+    margin-top: 100px ;
+    font-size: 1.7em;
+    text-align: center;
+  }
+
+  .card3-content p {
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .card3-content button {
+    display: block;      
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #a6cfbf;
+    border: 1px solid black; 
+    border-radius: 35px;
+    color: rgb(0, 0, 0);
+    cursor: pointe;
+  }
+  .card3-content button:hover {
+    background-color: #9ecfbcbb;
+     box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+  }
+  /* inicio do footer */
+  footer {
+  background: #fff;
+  color: #000;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  border-top: 1px solid #e0e0e0; 
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-col h4 {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin: 5px 0;
+}
+
+.footer-col ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.footer-col ul li a:hover {
+  color: #00704a;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer-bottom .socials a {
+  margin: 0 8px;
+  font-size: 18px;
+  color: #000;
+  text-decoration: none;
+}
+
+.footer-bottom .socials a:hover {
+  color: #00704a;
+}
+
+.footer-bottom .policies {
+  margin: 15px 0;
+}
+
+.footer-bottom .policies a {
+  margin: 0 8px;
+  color: #000;
+  text-decoration: none;
+}

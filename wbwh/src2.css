@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(44, 44, 44);
+}
+.mensagem1 {
+    text-align: center;
+    font-size: 105px;
+    color: white;
+}
+.mensagem2 {
+    text-align: center;
+    color: rgb(226, 226, 226);
+}
