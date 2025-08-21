@@ -9,4 +9,17 @@ body{
 .mensagem2 {
     text-align: center;
     color: rgb(226, 226, 226);
+
+}
+
+@media (max-width: 768px) {
+  .mensagem1 {
+    font-size: 48px; /* título menor */
+    padding: 20px;
+  }
+
+  .mensagem2 {
+    font-size: 14px;
+    padding: 10px;
+  }
 }
