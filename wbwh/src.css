@@ -257,3 +257,56 @@ nav a:hover
   color: #000;
   text-decoration: none;
 }
+/* RESPONSIVIDADE - CELULAR E TABLET */
+@media (max-width: 768px) {
+
+  /* HEADER */
+  .menu nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu nav a {
+    font-size: 18px;
+    padding: 8px;
+  }
+
+  .logo img {
+    width: 80px;
+  }
+
+  /* CARDS */
+  .card,
+  .card2,
+  .card3 {
+    flex-direction: column; /* empilha imagem e texto */
+    height: auto;           /* altura automática */
+    max-width: 100%;        /* ocupa largura total */
+  }
+
+  .card img,
+  .card2 img,
+  .card3 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-content,
+  .card2-content,
+  .card3-content {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  /* FOOTER */
+  .footer-top {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-col {
+    margin-bottom: 20px;
+  }
+}
+
